@@ -107,7 +107,7 @@ function FidgetSpinner() {
   return (
     <div className="flex flex-col items-center justify-center flex-1 select-none">
       <p className="mb-8 text-sm font-medium" style={{ color: 'hsl(var(--muted-foreground) / 0.6)' }}>
-        Click and drag to spin - GH
+        Click and drag to spin - GH1
       </p>
       <div
         ref={spinnerRef}
