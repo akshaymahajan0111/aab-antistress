@@ -53,7 +53,7 @@ function apiDevPlugin(): Plugin {
  * which handles interop natively, so this transform is dev-only.
  */
 function ssrCjsCompatPlugin(): Plugin {
-  const CJS_PACKAGES: string[] = ["react-router-dom", "react-router"];
+  const CJS_PACKAGES: string[] = ["react-router", "react-router"];
 
   function rewriteNames(raw: string): string {
     return raw.
